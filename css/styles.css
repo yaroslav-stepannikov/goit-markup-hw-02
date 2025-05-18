@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 ul {
@@ -91,7 +93,7 @@ button {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.08;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -131,7 +133,12 @@ button {
   background-color: #f4f4fd;
 }
 
+.team-title {
+  text-transform: capitalize;
+}
+
 .team-list {
+  background-color: #ffffff;
 }
 
 .team-item {
@@ -151,6 +158,10 @@ button {
 /* ====PORTFOLIO==== */
 
 .portfolio {
+}
+
+.portfolio-title {
+  text-transform: capitalize;
 }
 
 .portfolio-list {
